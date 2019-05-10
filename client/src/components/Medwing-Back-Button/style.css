@@ -1,0 +1,9 @@
+.medwing-button-back {
+    background-color: #c4a8a8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.medwing-button-back:hover {
+    box-shadow: 1px 1px 6px #b79898;
+}

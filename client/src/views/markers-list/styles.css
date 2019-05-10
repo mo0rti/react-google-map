@@ -1,0 +1,48 @@
+.offers-container {    
+    font-family: "Roboto";    
+    padding: 20px;    
+} 
+.map-and-list-layout {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;    
+}
+.first-map{
+    width: 50%;
+    min-height: 500px;
+}
+.add-list{
+    display: flex;
+    flex-direction: column;    
+    width: 50%;    
+    margin-left: 15px;    
+}
+.add-btn {
+    border: none;
+    border-radius: 5px;    
+    background-color: #77cc6d;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;    
+    width: 80px;
+    height: 35px;
+    transition: all 0.2s ease;
+}
+.add-btn:hover{
+    box-shadow: 1px 1px 6px #6ed861;
+}
+
+@media only screen and (max-width:768px) {
+    .map-and-list-layout {
+        flex-direction: column;
+    }
+    .first-map{
+        width: 100%;
+    }
+    .add-list{        
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+}

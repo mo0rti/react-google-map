@@ -1,0 +1,28 @@
+.makers-list-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    overflow-y: auto;
+    max-height: 90vh;
+    min-height: 500px;
+    border-top: 1px solid rgb(240,240,240);
+}
+
+.makers-list-container > ul {    
+    display: grid;
+    width: 100%;    
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 200px));
+    grid-gap: 25px;    
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+    margin: 0;      
+}
+
+@media only screen and (max-width:320px) {
+    .makers-list-container > ul {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-gap: auto;
+    }
+}

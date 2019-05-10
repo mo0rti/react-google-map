@@ -1,0 +1,10 @@
+.medwing-map-container {
+    flex: 1;
+    height: 100%;    
+}
+
+@media only screen and (max-width:450px) {
+    .medwing-map-container {
+      min-width: auto;
+    }
+}

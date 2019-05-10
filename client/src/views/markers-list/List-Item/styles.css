@@ -1,0 +1,83 @@
+.card {
+    position: relative;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+    height: 100%;
+    max-width: 350px;
+}
+
+.card-content {
+    padding: 10px 10px 55px 10px;
+}
+
+.card-title {
+    color: rgb(66, 66, 172);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+.card-subtitle {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.sub-content {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.card-footer button {
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    min-width: 80px;
+    padding: 5px 10px;
+    transition: all 0.2s ease;
+}
+
+.edit-btn {    
+    border: 2px solid rgb(59, 165, 67);
+    color: rgb(59, 165, 67);
+}
+
+.edit-btn:hover {
+    box-shadow: 1px 1px 6px rgb(59, 165, 67);
+    background-color: rgb(59, 165, 67);
+    color: #ffffff;
+}
+
+.delete-btn {    
+    border: 2px solid rgb(216, 27, 27);
+    color: rgb(216, 27, 27);
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    box-shadow: 1px 1px 6px rgb(216, 27, 27);
+    background-color: rgb(216, 27, 27);
+    color: #ffffff;
+}
