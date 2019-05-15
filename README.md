@@ -1,4 +1,4 @@
-# React Google map example
+# React Google Map
 A React application to work with the Google Map and Google GeoCode with Node-Js as back-end
 
 ## Explanation
